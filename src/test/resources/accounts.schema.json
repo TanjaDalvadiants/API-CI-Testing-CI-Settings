@@ -28,10 +28,8 @@
         "type": "integer",
         "default": 0
       },
-      "currency": {
-        "currency": { "type": "currency" },
-        "currency_name": { "type": "string" },
-        "currency-type": { "enum": ["RUB", "USD"] }
+      "currency": { "enum": ["RUB", "USD"] },
+
       }
     }
   }
